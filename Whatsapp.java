@@ -66,7 +66,7 @@ void login()throws Exception
         // User logged_User = obj.isValidUser(userName, password);
         while(true)
         {
-            System.out.println(bold_blue+"ent the user name or password"+resetColor);
+                System.out.println(bold_blue+"ent the user name or password"+resetColor);
                 userName=s.nextLine();
                 System.out.println(bold_blue+"ent the password"+resetColor);
                 Console console = System.console();
@@ -75,6 +75,8 @@ void login()throws Exception
             if(logged_User != null)//change to != after testing
             {
                 int ch;
+                // String 
+                "hsh".repeat(3);
                 System.out.println(boldGreenColor+"\nScuessfully loginned\n"+resetColor);
                 do
                 {

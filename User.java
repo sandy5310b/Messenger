@@ -14,11 +14,14 @@ public class User {
         this.path = path;
         this.admin = admin ;
     }    
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         User obj1 = new User("sarang", "ss@gasha", "qwertyui", false, new File("sd"));
         User obj2 = new User("ajay", "ss@gasha", "qwertyui", false, new File("sd"));
         User obj3 = new User("ajay","ss@gasha", "qwertyui", false, new File("sd"));
+        // obj1.name
         ArrayList<User> arr = new ArrayList<User>();
+
         arr.add(obj1);
         arr.add(obj2);
         arr.add(obj3);

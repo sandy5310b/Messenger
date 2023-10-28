@@ -28,11 +28,6 @@ public class DataManager {
         {
             System.out.println(color.bold_red+"user lsit file not found"+color.resetColor);
         }
-        // System.out.println("All user list ");
-        // for (User i : data) 
-        // {
-        //     System.out.println("Name : "+i.name +"  E-mail-id : "+i.mail_id+"  Is a Admin = "+i.admin);    
-        // }
     }
     User isValidUser(String name , String password)
     {
@@ -152,6 +147,8 @@ public class DataManager {
         
     }
     public static void main(String[] args) {
+        var d= "D";
+        System.out.println(d);
         // DataManager obj =new DataManager();
         // System.out.println("this is from datamanager main function");
         // obj.display();
